@@ -8,10 +8,15 @@ This project aims to build a predictive model for student exam scores based on v
 First, I imported the dataset into a jupyter notebook. The dataset contains features such as:
 
 Hours_Studied: The number of hours the student spends studying.
+
 Attendance: The attendance percentage of the student.
+
 Previous_Scores: Scores obtained by the student in prior exams.
+
 Motivation_Level: A categorical feature representing the student's motivation (e.g., High, Medium, Low).
+
 Parental_Involvement: A categorical feature representing the involvement of parents in the student's education (e.g., High, Medium, Low).
+
 Sleep_Hours, Tutoring_Sessions, etc.
 
 2.2 Handling Missing Values
