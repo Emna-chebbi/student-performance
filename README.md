@@ -23,6 +23,7 @@ Sleep_Hours, Tutoring_Sessions, etc.
 After loading the dataset, I checked for missing values and found that three columns had many null values:
 
 Teacher_quality: This column was dropped due to a large number of missing values.
+
 Parental_Education_Level and Distance_from_Home: These columns were filled with the mode of the respective columns instead of being dropped.
 
 2.3 Ethical Considerations
