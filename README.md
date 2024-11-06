@@ -36,7 +36,7 @@ Next, I checked for outliers using the Z-score method. This method helps to iden
 
 5. Model Training
 5.1 Train-Test Split
-I then split the cleaned data into a training set (80%) and a test set (20%) to evaluate the performance of our model on unseen data. The split ensures that we have a fair estimate of how the model would perform in real-world conditions.
+  I then split the cleaned data into a training set (80%) and a test set (20%) to evaluate the performance of our model on unseen data. The split ensures that we have a fair estimate of how the model would perform in real-world conditions.
 
 5.2 Label Encoding for Categorical Feature
 Since the Motivation_Level column is a categorical feature, I used Label Encoding to convert it into numerical values so it could be used in the regression model.
@@ -52,9 +52,11 @@ Mean Squared Error (MSE): A measure of the average squared difference between ac
 MSE: 2.4685
 R-squared (R²): A measure of how well the model explains the variance in the target variable. It ranges from 0 to 1, where a value closer to 1 indicates better performance.
 R²: 0.7610
+
 6.2 Interpretation of Results
 MSE = 2.4685: This value indicates the average squared difference between the predicted and actual exam scores. While lower values of MSE are better, this MSE suggests that the model is fairly accurate in predicting exam scores, but there might still be room for improvement.
 R² = 0.7610: This value means that approximately 76.1% of the variance in exam scores is explained by the features in the model. This is a strong R² value, indicating that the model captures most of the factors influencing the exam score.
+
 7. Conclusion
 The Linear Regression model performs reasonably well with an R² of 0.7610 and an MSE of 2.4685.
 The results suggest that the features used (Hours Studied, Attendance, Previous Scores, Motivation Level) have a significant relationship with the Exam_Score.
